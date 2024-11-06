@@ -66,28 +66,3 @@ class sll_iterator:
         return data
         
 
-l = SLL()
-
-print(l.is_empty())
-
-l.insert_at_first(10)
-l.print()
-print("\n")
-l.insert_at_last(50)
-l.print()
-print("\n")
-l.insert_after(l.search(10), 20)
-l.print()
-print("\n")
-l.insert_after(l.search(20), 30)
-l.print()
-print("\n")
-l.insert_after(l.search(30), 40)
-l.print()
-print("\n")
-l.search(30)
-
-
-
-for i in SLL():
-    print(i, end=" ")
